@@ -1,4 +1,4 @@
-# AnalisisNumerico_2021
+# Analisis Numerico 2021
 ## Profesor: M. en C. Miguel Ángel Pérez León.
 Aqui se encuentran los codigos de las tareas de analisis numerico
 
