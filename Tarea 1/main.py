@@ -37,5 +37,8 @@ def main():#son las pruebas de cada funcion
 
 #-------------------------------------------------------------------------------------------------------
 
+print("PRUEBA EJERCICIO 3")
+##prueba para ejercicio 3
+
 if __name__ == "__main__":
   main()
