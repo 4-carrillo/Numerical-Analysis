@@ -39,7 +39,7 @@ def fibonacci(n):
 ##INVERSA DE UNA MATRIZ ( PUSIMOS DOS METODOS, UNO QUE RECIBE UNA MATRIZ Y OTRO DONDE LA CREA ADENTRO DEL METODO)
 
 
-# metodo "CHAFA" : NO RECIBE UNA MATRIZ Y SOLO CALCULA CUANDO ES MATRIZ 2x2
+# metodo "CAFHA" : NO RECIBE UNA MATRIZ Y SOLO CALCULA CUANDO DET!=0
 def inversachafa():
   ##PROGRAMA QUE CALCULA LA INVERSA DE UNA MATRIZ SIEMPRE Y CUANDO DET!=0
   A = np.zeros((2,2))    ##creamos nuestra matriz cuadrada  con ceros 
@@ -65,7 +65,7 @@ def inversachafa():
     print('LO SIENTO SOLO SE CALCULAR LA MATRIZ INVERSA  DE UNA MATRIZ 2X2 CUANDO EL DETERMINANTE ES DISTINTO DE CERO')
 
 #---------------------------------------------------------------------------------------------------------------------------------------------------------#
-## INVERSA DE UNA MATRIZ CUADRADA (SIN NUMPY(EXCEPTO PARA LA MATRIZ DE MENORES) Y CON METODOS AUXILIARES)
+## INVERSA DE UNA MATRIZ CUADRADA (SIN NUMPY Y CON METODOS AUXILIARES)
 ### Para todos los metodos estamos suponiendo que recibimos una matriz cuadrada
 
 ## --------------------------- METODO AUXILIARES --------------------------- ##
@@ -146,4 +146,4 @@ def matrizInversa(m):
 
 
 
-###### FIN PROGRAMA
+######FIN PROGRAMA
