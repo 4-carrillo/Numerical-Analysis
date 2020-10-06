@@ -1,5 +1,5 @@
 """"
-Tarea # 1: Tarea1
+Tarea # 1:  Tarea1
 
 integrantes:
 
@@ -29,7 +29,7 @@ def fibonacci(n):
 
   for i in range(int(n-1)): #Recorremos la lista hasta n-2 (Para iniciar en 1)
     tmp=fib_n #Creamos un temporal para almacener el numero actual
-    fib_n=tmp+fib_n_1 #Actualizamos el numero actual en base a la regla de la sucesion
+    fib_n=tmp+fib_n_1 #Actualizamos el numero actual con base a la regla de la sucesion
     fib_n_1=tmp #Actualizamos el numero anterior
 
   return fib_n #Regresamos el numero n de fibonacci
