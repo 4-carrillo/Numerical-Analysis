@@ -1,5 +1,5 @@
 """"
-Tarea # 1: Tarea1
+Tarea # 1:  Tarea1
 
 integrantes:
 
