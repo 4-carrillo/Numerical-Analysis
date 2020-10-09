@@ -39,7 +39,7 @@ def fibonacci(n):
 #CMAA Y AGIAA
 ##INVERSA DE UNA MATRIZ ( PUSIMOS DOS METODOS, UNO QUE RECIBE UNA MATRIZ Y OTRO DONDE LA CREA ADENTRO DEL METODO)
 
-
+#AGIAA
 # metodo "CHAFA" : NO RECIBE UNA MATRIZ Y SOLO CALCULA CUANDO ES MATRIZ 2x2
 def inversachafa():
   ##PROGRAMA QUE CALCULA LA INVERSA DE UNA MATRIZ SIEMPRE Y CUANDO DET!=0
@@ -71,6 +71,7 @@ def inversachafa():
 
 ## --------------------------- METODO AUXILIARES --------------------------- ##
 ### Estos metodos solo se ejecutan si la matriz es de mas de 2x2
+#### CMAA
 
 def matrizMenores(m, r, c):
     copia = np.copy(m)
@@ -118,6 +119,7 @@ def matrizCofactores(m):
 
 ## --------------------------- METODO PRINCIPAL --------------------------- ##
 
+#CMAA
 def matrizInversa(m):
 
   #Funcion que nos regresa la matriz inversa
@@ -145,6 +147,8 @@ def matrizInversa(m):
 
 #----------------------------------------------------------------------------------------------------------------------------------------------------
 
+#AGIAA
+#FUNCION DE DISTRIBUCION
 def distribucion (N,M):
 
   #GENERA NUMEROS N ALEATORIOS Y LOS SUMA M VECES
