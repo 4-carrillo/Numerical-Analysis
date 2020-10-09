@@ -1,5 +1,6 @@
 """"
 Tarea # 1: Tarea1
+##COMENTARIO 
 
 integrantes:
 
@@ -144,6 +145,7 @@ def matrizInversa(m):
   return np.array(inversa)
 
 #----------------------------------------------------------------------------------------------------------------------------------------------------
+###DISTRIBUCION UNIFORME
 
 def distribucion (N,M):
 
@@ -162,5 +164,5 @@ def distribucion (N,M):
   
   return lGNumeros
 
-
-### FIN PROGRAMA
+    
+###### FIN PROGRAMA
