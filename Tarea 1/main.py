@@ -39,7 +39,6 @@ def main():#son las pruebas de cada funcion
 
 #-------------------------------------------------------------------------------------------------------
 
-<<<<<<< HEAD
 print("PRUEBA EJERCICIO 3")
 ##prueba para ejercicio 3
 =======
@@ -56,7 +55,6 @@ print("PRUEBA EJERCICIO 3")
       P=funciones.distribucion(x[i],y[j])
       plt.hist(P,density=True)
       plt.show()
->>>>>>> c5c7daff5f2b0ea2925e78ca84332dffd1de0c80
 
 if __name__ == "__main__":
   main()
