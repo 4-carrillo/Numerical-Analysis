@@ -145,7 +145,6 @@ def matrizInversa(m):
   return np.array(inversa)
 
 #----------------------------------------------------------------------------------------------------------------------------------------------------
-<<<<<<< HEAD
 ###DISTRIBUCION UNIFORME
 
 def uniforme():
@@ -175,4 +174,3 @@ def distribucion (N,M):
 
 
 ###### FIN PROGRAMA
->>>>>>> c5c7daff5f2b0ea2925e78ca84332dffd1de0c80
