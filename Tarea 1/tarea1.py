@@ -1,6 +1,5 @@
 """"
 Tarea # 1: Tarea1
-##COMENTARIO 
 
 integrantes:
 
@@ -31,7 +30,7 @@ def fibonacci(n):
 
   for i in range(int(n-1)): #Recorremos la lista hasta n-2 (Para iniciar en 1)
     tmp=fib_n #Creamos un temporal para almacener el numero actual
-    fib_n=tmp+fib_n_1 #Actualizamos el numero actual con base a la regla de la sucesion
+    fib_n=tmp+fib_n_1 #Actualizamos el numero actual en base a la regla de la sucesion
     fib_n_1=tmp #Actualizamos el numero anterior
 
   return fib_n #Regresamos el numero n de fibonacci
@@ -145,20 +144,10 @@ def matrizInversa(m):
   return np.array(inversa)
 
 #----------------------------------------------------------------------------------------------------------------------------------------------------
-<<<<<<< HEAD
-###DISTRIBUCION UNIFORME
-
-def uniforme():
-    pass
-   
-    
-    
-### FIN PROGRAMA
-=======
 
 def distribucion (N,M):
 
-  #FUNCIONALIDAD
+  #GENERA NUMEROS N ALEATORIOS Y LOS SUMA M VECES
 
   #Semilla
   np.random.seed(2)
@@ -174,5 +163,58 @@ def distribucion (N,M):
   return lGNumeros
 
 
-###### FIN PROGRAMA
->>>>>>> c5c7daff5f2b0ea2925e78ca84332dffd1de0c80
+###### FIN DE LOS ALGORITMOS
+
+def main():#son las pruebas de cada funcion
+
+  print("PRUEBA SUCESION FIBONACCI \n ")
+
+  # prueba de sucesion de fibonacci
+  r=int(input("ingrese un numero para que se le de el resultado de la funcion fibonacci \n"))
+  print("Fn=%d"%(fibonacci(r)))
+
+#-------------------------------------------------------------------------------------------------------
+  print("")
+  print("PRUEBA MATRIZ INVERSA METODO CHIDO \n ")
+
+  ## prueba de inversa de una matriz por metodo chido##
+
+  # creamos nuestra matriz 
+  n=int(input('cuantas filas quieres \n'))
+  m=int(input('cuantas columnas  quieres \n'))
+  A = np.zeros((n,m))      
+
+  # llenamos la matriz 1 con los datos del usuario
+  print ("Ingrese los elementos de la  matriz")
+  for i in range(n):
+    for j in range(m):
+      A[i][j] =float(input('Elemento (%2d,%2d): ' % (i, j))) 
+
+  print( "su matriz es:")
+  print(A)
+  print( "La matriz inversa es:")
+  print(matrizInversa(A))
+
+  ### prueba de inversa de una matriz por metodo chafa
+  print("")
+  print("PRUEBA MATRIZ INVERSA METODO CHAFA \n ")
+  inversachafa() 
+
+#-------------------------------------------------------------------------------------------------------
+
+#PRUEBA FUNCION DE DISTRIBUCION
+
+  print("")
+  print("PRUEBA FUNCION DE DISTRIBUCION \n ")
+  x=[100,1000,10000]
+  y=[100,200,300]
+
+  for i in range(3):
+    for j in range(3):
+      print("Histograma con %d numeros aleatorios y sumados %d veces \n" %(x[i],y[j]))
+      P=distribucion(x[i],y[j])
+      plt.hist(P,density=True)
+      plt.show()
+
+if __name__ == "__main__":
+  main()
