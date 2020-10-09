@@ -147,14 +147,6 @@ def matrizInversa(m):
 #----------------------------------------------------------------------------------------------------------------------------------------------------
 ###DISTRIBUCION UNIFORME
 
-def uniforme():
-    pass
-   
-    
-    
-### FIN PROGRAMA
-=======
-
 def distribucion (N,M):
 
   #FUNCIONALIDAD
@@ -172,5 +164,5 @@ def distribucion (N,M):
   
   return lGNumeros
 
-
+    
 ###### FIN PROGRAMA

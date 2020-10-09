@@ -39,9 +39,6 @@ def main():#son las pruebas de cada funcion
 
 #-------------------------------------------------------------------------------------------------------
 
-print("PRUEBA EJERCICIO 3")
-##prueba para ejercicio 3
-=======
 #PRUEBA FUNCION DE DISTRIBUCION
 
   print("")
